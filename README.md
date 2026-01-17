@@ -39,7 +39,7 @@ SUWI/
 │   ├── suwi_cipher.v          # Both Encryption and decryption
 │   ├── suwi_cipher_tb.v
 │   └── counter.v              # Cycle counter
-
+│
 ├── test_vectors/
 │   └── suwi_test_vectors.txt   # Reference plaintext–ciphertext pairs
 │
