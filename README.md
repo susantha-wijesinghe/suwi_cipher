@@ -37,8 +37,9 @@ SUWI/
 │   ├── suwi_enc.v             # Encription only
 │   ├── suwi_enc_tb.v
 │   ├── suwi_cipher.v          # Both Encryption and decryption
-│   └── suwi_cipher_tb.v
-│
+│   ├── suwi_cipher_tb.v
+│   └── counter.v              # Cycle counter
+
 ├── test_vectors/
 │   └── suwi_test_vectors.txt   # Reference plaintext–ciphertext pairs
 │
@@ -64,6 +65,12 @@ All constants and operations match the specification in the manuscript.
 
 ## 4. Implementations
 
+# Clone via HTTPS
+```
+git clone https://github.com/susantha-wijesinghe/suwi_cipher.git
+cd suwi_cipher/Python
+python suwi.py
+```
 ### 4.1 Python
 
 * algorithm validation,
@@ -74,6 +81,11 @@ It follows the specification directly and prioritizes clarity over performance.
 
 ### 4.2 C
 
+```
+cd suwi_cipher/c
+gcc -o suwi suwi.c
+./suwi
+```
 The C implementation is:
 
 * portable,
@@ -82,6 +94,11 @@ The C implementation is:
 
 ### 4.3 Verilog 
 
+```
+cd suwi_cipher/verilog
+iverilog -o suwi_cipher.vvp suwi_cipher.v suwi_cipher_tb.v counter.
+vvp suwi_cipher.vvp
+```
 The Verilog RTL corresponds to:
 
 * an iterative, 1-round-per-cycle architecture,
