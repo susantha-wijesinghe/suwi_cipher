@@ -1,0 +1,32 @@
+Test vectors
+============
+
+Plaintext : 00000000000000000000000000000000
+Key       : 00000000000000000000000000000000
+Ciphertext: 8f720e2a762337ccc6b89715e951caca
+Decrypted : 00000000000000000000000000000000
+
+Plaintext : ffffffffffffffffffffffffffffffff
+Key       : ffffffffffffffffffffffffffffffff
+Ciphertext: 4974d5f198cb10198f4018f644178a78
+Decrypted : ffffffffffffffffffffffffffffffff
+
+Plaintext : 55555555555555555555555555555555
+Key       : aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+Ciphertext: 9d31db4d608d320e7a0d133988fc5f3c
+Decrypted : 55555555555555555555555555555555
+
+Plaintext : 0123456789abcdef0123456789abcdef
+Key       : fedcba9876543210fedcba9876543210
+Ciphertext: 0c4a442450f2bed27d88082a07874ee9
+Decrypted : 0123456789abcdef0123456789abcdef
+
+Plaintext : a1b2c3d4e5f60718a1b2c3d4e5f60718
+Key       : 192a3b4c5d6e7f80192a3b4c5d6e7f80
+Ciphertext: a6c30b307209cdab8e7a3cd54da585b0
+Decrypted : a1b2c3d4e5f60718a1b2c3d4e5f60718
+
+Plaintext : 80000000000000000000000000000001
+Key       : 7fffffffffffffffffffffffffffffff
+Ciphertext: a02e67d41f7e442e414ac016660b9c48
+Decrypted : 80000000000000000000000000000001
