@@ -144,8 +144,8 @@ If you use SUWI or this repository in your research, please cite:
 
 ```
 W. A. Susantha Wijesinghe,
-“SUWI: A Unified 128-bit Lightweight Block Cipher with Consistent Efficiency Across FPGA, ASIC, and Embedded Platforms,”
-IEEE Access, 2026.
+“SUWI: A 128-bit Lightweight Block Cipher Integrating Provable Security Analysis with Cross-Platform Implementation Efficiency,”
+IEEE TC, 2026.
 ```
 
 ---
