@@ -2,9 +2,9 @@
 
 This repository provides **reference implementations and evaluation artifacts** for **SUWI**, a 128-bit lightweight block cipher designed for consistent efficiency across FPGA, ASIC, and embedded software platforms.
 
-The implementations and test materials correspond to the cipher specification and experimental results reported in the IEEE Access manuscript:
+The implementations and test materials correspond to the cipher specification and experimental results reported in the IEEE Transactions on Computers manuscript:
 
-> **“SUWI: A Unified 128-bit Lightweight Block Cipher with Consistent Efficiency Across FPGA, ASIC, and Embedded Platforms”**
+> **“SUWI: A 128-bit Lightweight Block Cipher Integrating Provable Security Analysis with Cross-Platform Implementation Efficiency”**
 > W. A. Susantha Wijesinghe
 
 ---
